@@ -1,0 +1,15 @@
+title_primary: "麦可•塔维什" # the bigger text
+title_secondary: "Mediocre" # the smaller text
+keywords:
+
+twitter: # user_name
+rss: # rss
+weibo: # user_id/permanent_name
+instagram: # user_name
+github: Mactaivsh
+
+# Choose the comment service according to your need.
+# Please do not use the two services at the same time.
+livere: # [data-uid] on livere.com
+disqus: # [short_name] on disqus.com
+dove: # For fun ONLY. Set to true to 'disable' comments on your site.
