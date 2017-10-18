@@ -1,7 +1,7 @@
 ---
 title: JS 对象的拷贝
 date: 2017-10-16 17:11:06
-tags: [Javascript]
+tags: [JavaScript]
 ---
 
 JS 对象的拷贝，有两种方式，一种是深拷贝(deep copy)，一种是浅拷贝(shallow copy)。其实我不是很喜欢这种说法，我更喜欢对象克隆(clone)和复制引用(reference copy)的说法。
