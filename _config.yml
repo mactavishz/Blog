@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mactavish's Blog
-subtitle:
-description:
+title: Macsalvation
+subtitle: 路漫漫其修远兮
+description: This is Mactavish's private blog
 author: Mactavish
-language: zh-cn
+language: zh-CN
 timezone:
 
 # URL
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: typography
+theme: pln
 archive_generator:
   per_page: 0
 
