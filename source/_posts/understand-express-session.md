@@ -371,5 +371,15 @@ store.get(req.sessionID, (err, sess) => {
 
 {% asset_img request-flow.png %}
 
+## 总结
+
+通过仔细地阅读 expresss-session 的源码，了解了一个中间件的完整的实现原理
+
+以及如何通过 proxy 这样的思路来灵活地控制响应的生命周期
+
+同时也了解了如何设计一个模块的 API 以及对外暴露的接口的选择
+
+收益良多，果然像 tj 大神说的那样，多读优秀的源码确实是提升技术水平的好方法
+
 
 
