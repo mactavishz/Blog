@@ -6,7 +6,9 @@ Only save for further use
 
 # Online Address
 
-The publish file was served at [HERE](http://macsalvation.net)
+The publish file was served at ~~[HERE](http://macsalvation.net)~~
+
+New: now the website has been updated to https: [HERE](https://macsalvation.net)
 
 Feel free to visit
 
