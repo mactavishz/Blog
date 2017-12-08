@@ -43,7 +43,7 @@ Vultr 的使用非常地简单，注册好账号密码之后，先往里充值�
 ---
 #### 本地搭建 Hexo 项目
 
-{% asset_img hexo.io.png %}  
+![](hexo.io.png)
 
 [Hexo](https://hexo.io/) 是一个基于 Node.js 的静态博客框架，用 markdown 来编写博客，然后通过官方的命令行工具来生成静态文件。这里简单介绍一些 Hexo 的用法：
 
@@ -90,7 +90,7 @@ SSH 密钥验证的原理简单来说就是：
 3. 服务器利用公钥来解密来自客户端的加密串
 4. 如果解密之后的串和一开始服务器发送出去的串是匹配的，那么这次验证就通过了。
 
-{% asset_img ssh-key-auth-flow.png %}
+![](ssh-key-auth-flow.png)
 
 ---
 
