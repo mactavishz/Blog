@@ -31,7 +31,7 @@ tags: [Backend, Node.js, HTTP]
 
 当用户信息发生改变的时候, Server 也可以主动给客户端设置 cookie，这样下次请求的时候就能够获取改变的信息了
 
-{% asset_img cookie.png %}
+![](cookie.png)
 
 ## Session 是如何保存数据的
 
@@ -69,7 +69,7 @@ Cookie 和服务器交互的过程可以简述为一下三点：
 
 express-session 也允许对 cookie 进行加密以确保 cookie 中的信息不被轻易地窃取
 
-{% asset_img session_cookie.png %}
+![](session_cookie.png)
 
 但是 cookie 本身是有一些问题的，比如：
 
@@ -87,7 +87,7 @@ express-session 也允许对 cookie 进行加密以确保 cookie 中的信息不
 
 这个标识符用于在缓存中查找对应的 key-value 数据，并且也避免将用户的敏感信息存放在 cookie
 
-{% asset_img memory.png %}
+![](memory.png)
 
 使用缓存有这些好处：
 
@@ -156,7 +156,7 @@ app.use(session({
 
 ### 接口及结构
 
-{% asset_img interface.png %}
+![](interface.png)
 
 session 初始化的时候，express-session 中间件会给传入的 request 对象设置几个属性：
 
@@ -187,7 +187,7 @@ express-session 中间件默认使用自带的 MemoryStore 对象来存储 sessi
 
 让我们来看下 Store 对象的具体实现：
 
-{% asset_img Store.png %}
+![](Store.png)
 
 Store 对象本质上继承了 EventEmitter，然后 MemoryStore 又继承了 Store
 
@@ -365,11 +365,11 @@ store.get(req.sessionID, (err, sess) => {
 
 ### express-session 中间件的处理流程
 
-{% asset_img flow.png %}
+![](flow.png)
 
 ### 利用 express-session 的完整请求过程
 
-{% asset_img request-flow.png %}
+![](request-flow.png)
 
 ## 总结
 
