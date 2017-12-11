@@ -1,0 +1,19 @@
+menu:
+  主页: /
+  归档: /archives
+
+nav_brand: Mactavish
+  
+more:
+  Github: https://github.com/Mactaivsh
+  微博: http://weibo.com/XXX
+
+about:
+  title: Private Space
+  link: https://macsalvation.net
+
+disqus_shortname: macsalvation
+
+excerpt_num: 80
+
+footer_info: © Mactavish's
