@@ -104,4 +104,16 @@ Debounce 简单地来说就是将一组连续的函数调用整合成一个函�
 
 我们可以把电梯看作函数，函数为了最大化地使用资源，会延迟调用
 
+我在 code pen 上写了一个 debounce 的可视化的例子
+
+可以用来体会没有使用 debounce 的事件和使用了 debounce 的事件的差异（点击开始加载）：
+
+点击 `start` 按钮然后狂戳 `Trigger` 按钮，你就能看到效果了
+
+<iframe height='389' scrolling='no' title='Debounce' src='//codepen.io/Mactavish/embed/preview/JMjKPe/?height=389&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Mactavish/pen/JMjKPe/'>Debounce</a> by Mac for Real (<a href='https://codepen.io/Mactavish'>@Mactavish</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+我们可以发现，快速连续的事件触发是如何被一个单独的 debounce 事件取代的，但如果超过一定的间隙去触发事件的话，debounce 就和普通的事件没有什么差别
+
+[未完待续]
 
