@@ -377,3 +377,6 @@ function throttle(func, wait, options) {
 
 注意下使用场景的不同即可
 
+## 参考
+
+> https://github.com/lodash/lodash/blob/master/debounce.js
