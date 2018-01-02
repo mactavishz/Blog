@@ -622,3 +622,10 @@ Grid 布局基本上涵盖了过去的布局方案里的所遇到的问题
 这时候我们直接使用 Flex 布局就非常地方便
 
 如果我们是直接从布局入手，已经规定好了网格的组织形式，然后再把元素放置到网格当中，那么使用 Grid 布局会更合适
+
+## 参考
+
+> 
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+* https://mozilladevelopers.github.io/playground/css-grid/
+* https://medium.com/flexbox-and-grids/how-to-efficiently-master-the-css-grid-in-a-jiffy-585d0c213577
