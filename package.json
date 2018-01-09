@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.4.2"
+    "version": "3.4.4"
   },
   "dependencies": {
     "hexo": "^3.4.2",
@@ -18,7 +18,13 @@
     "marked": "^0.3.9"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
