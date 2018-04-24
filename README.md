@@ -1,15 +1,9 @@
-# Intro
+# Mactavish's Blog
 
-This is the repo for my hexo blog file
+This repository only serves as my personal blog's storage
 
-Only save for further use
+# Visit Blog
 
-# Online Address
-
-The publish file was served at ~~[HERE](http://macsalvation.net)~~
-
-New: now the website has been updated to https: [HERE](https://macsalvation.net)
-
-Feel free to visit
+Go [HERE](https://macsalvation.net)
 
 Any questions please email __maczhanchao@yahoo.com__
