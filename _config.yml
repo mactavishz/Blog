@@ -80,4 +80,8 @@ archive_generator:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
-  
+
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_tpl.xml
+
