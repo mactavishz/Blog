@@ -10,5 +10,3 @@ Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
-
-Sitemap: http://macsalvation.net/sitemap.xml
