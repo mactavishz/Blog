@@ -50,7 +50,7 @@ h1 {
 
 body {
     font-size: 14px;
-    font-family: PingFang HK, Helvetica Neue, Helvetica, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
+    font-family: Helvetica Neue, Helvetica, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
     background-color: $background;
     margin: 0;
     padding: 0;
@@ -221,7 +221,7 @@ table {
 img,
 object,
 video {
-    max-width: 110%;
+    max-width: 100%;
 }
 
 iframe {
@@ -229,13 +229,11 @@ iframe {
 }
 
 img {
+    max-width: 75%;
     display: block;
     height: auto;
-    position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .index-meta * {
