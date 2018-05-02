@@ -3,8 +3,12 @@ title: '[译文]深入理解 ES Modules (手绘示例)'
 date: 2018-04-27 17:27:22
 tags: [JavaScript, Translation]
 ---
+> 注：本篇博客为原始翻译，同时由博主本人发布在众成翻译平台
 
 原文链接: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/?utm_source=dev-newsletter&utm_medium=email&utm_campaign=mar29-2018
+
+众成翻译: https://www.zcfy.cc/article/es-modules-a-cartoon-deep-dive-mozilla-hacks-the-web-developer-blog
+
 
 <br>
 
