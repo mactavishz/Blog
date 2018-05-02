@@ -11,7 +11,9 @@
   },
   "scripts": {
     "dev": "hexo server",
-    "build": "hexo generate"
+    "build": "hexo generate",
+    "sass:build": "sass ./themes/pln/source/css/main.scss:./themes/pln/source/css/m.min.css -t compressed --sourcemap=file --no-cache",
+    "sass:watch": "sass --watch ./themes/pln/source/css/main.scss:./themes/pln/source/css/m.min.css -t compressed --sourcemap=file --no-cache"
   },
   "dependencies": {
     "hexo": "^3.4.2",
