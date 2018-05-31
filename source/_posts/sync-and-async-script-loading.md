@@ -100,7 +100,7 @@ alert("Time's up")
 
 打开控制台，注意 `console` 中的输出，来回点击 `HTML` 和 `Result` 可反复查看结果
 
-<script async src="//jsfiddle.net/macsalvation/7we7sg10/6/embed/html,result/"></script>
+<script async src="//jsfiddle.net/macsalvation/k1pthtfy/embed/"></script>
 
 在这个例子中，我们使用之前的方法动态地加载了 `jQuery` 的脚本，并检查 `jQuery` 的全局对象
 
