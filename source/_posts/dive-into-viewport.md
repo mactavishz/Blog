@@ -385,11 +385,22 @@ if (!metaEl) {
 
 而 flexible 布局上解决了**部分** `retina` 屏幕上 `1px` 边框的问题，但是实际我们还是要去做一些兼容的方案，不过这又是另外一个话题了，感兴趣的朋友可以阅读[这篇文章](https://www.w3cplus.com/css/fix-1px-for-retina.html)
 
+## iFrame 中的 Viewport
+
+有时候，我们的页面里可能使用了一些 iFrame，那么 iFrame 里面的内容的 viewport 是怎么样计算的呢？是使用父窗口的 viewport 吗？还是拥有自己的 viewport ?
+
+由于这里涉及了 iFrame 大量相关的内容，本篇博客不再赘述，先抛出答案：iFrame 拥有自己单独的 viewport
+
+对 iFrame 感兴趣的朋友，可以详细阅读 Alen 师兄写的 [iFrame 那些事](https://afantasy.ninja/2018/07/15/dive-into-iframe/)
+
 ## 参考资料
 
 > * https://en.wikipedia.org/wiki/Pixel
 > * https://en.wikipedia.org/wiki/Dots_per_inch
-> * https://medium.com/@onlinelogomaker/what-is-the-difference-between-dpi-ppi-resolution-and-image-size-b42328e7ed22
+> * https://drafts.csswg.org/cssom-view/#dom-element-clientwidth
+> * https://drafts.csswg.org/cssom-view/#dom-window-innerwidth
+> *
+https://medium.com/@onlinelogomaker/what-is-the-difference-between-dpi-ppi-resolution-and-image-size-b42328e7ed22
 > * https://developer.android.com/guide/practices/screens_support#terms
 > * https://apple.co/2kwZFYP (链接太长了，压缩成短链)
 > * https://www.quirksmode.org/mobile/viewports.html
