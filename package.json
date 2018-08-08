@@ -10,7 +10,7 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "serve": "hexo server",
+    "serve": "hexo server --open",
     "build": "hexo generate",
     "write": "hexo new post",
     "sass:build": "sass ./themes/pln/source/css/main.scss:./themes/pln/source/css/m.min.css -t compressed --sourcemap=file --no-cache",
